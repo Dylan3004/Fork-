@@ -1,0 +1,42 @@
+========================================================================
+Autor: Dawid Pałka,                               Krakow, 20.03.2022
+========================================================================
+
+* Zawartosc:
+============
+
+Katalog programy zawiera pięć programów z pierszego zestawu
+--------------------------------------------------------------------
+
+I.  Program wypisujacy identyfikatory UID,GID,PID,PPID,PGID 
+
+II. Program tworzy procesy (dzieci) za pomocą funkci fork() zamieszczonej w pętli for o 3 iteracjach i korzysta z funkcji wait
+
+III. Program działa na podobnej zasadzie co II ale za pomocą funkcji sleep
+
+IV. Program działa jak program II ale funkcja sllep jest napisana w takim miejscu aby programy wyświetlały się pokoleniami
+
+V. Program działa jak program II ale procesy potomne są ustawiane na oddzielne procesy gdzie same stają się procesami macierzystymi
+
+------------------------------------------------------------------------
+
+* Jak uruchomic programy:
+=========================
+
+Katalog zawiera program Makefile do kompilacji, linkowania
+i uruchamiania powyzszych programow, a takze czyszczenia katalogu 
+i jego archiwizacji.
+
+-> Aby uruchomic programy, nalezy wykonac komende:
+       make "nazwa programu"
+       
+-> Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac:
+       make clean
+
+-> W celu archiwizacji oraz kompresji katalogu nalezy wykonac:
+       make tar
+
+========================================================================
+
+
+
