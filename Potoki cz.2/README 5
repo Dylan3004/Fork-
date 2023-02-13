@@ -1,0 +1,35 @@
+========================================================================
+Autor: Dawid Pałka,                               Krakow, 20.04.2022
+========================================================================
+
+* Zawartosc:
+============
+
+Katalog zawiera programy do cw 5
+--------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+
+* Jak uruchomic programy:
+=========================
+
+Katalog zawiera program Makefile do kompilacji, linkowania
+i uruchamiania powyzszych programow, a takze czyszczenia katalogu 
+i jego archiwizacji.
+
+-> Aby uruchomic programy, nalezy wykonac komende:
+       A
+       make "nazwa programu" arg1="wielkosc buforu dla producenta" arg2="wielkosc buforu dla konsumenta" arg3="plik tekstowy poczatkowy" arg4="plik tekstowy koncowy" arg5="nazwa fifo"
+       B
+       make zadaprod/kons arg1="wielkosc buforu" arg2="plik do odczytu/zapisu" arg3="nazwa fifo"
+       
+       
+-> Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac:
+       make clean
+
+
+========================================================================
+
+
