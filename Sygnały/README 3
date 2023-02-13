@@ -1,0 +1,32 @@
+========================================================================
+Autor: Dawid Pałka,                               Krakow, 32.03.2022
+========================================================================
+
+* Zawartosc:
+============
+
+Katalog programy zawiera program z trzeciego zestawu
+--------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------
+
+* Jak uruchomic programy:
+=========================
+
+Katalog zawiera program Makefile do kompilacji, linkowania
+i uruchamiania powyzszych programow, a takze czyszczenia katalogu 
+i jego archiwizacji.
+
+-> Aby uruchomic programy, nalezy wykonac komende:
+       make "nazwa programu" INT="argument1" INT2="argument2"
+       
+       
+-> Aby wyczyscic zawartosc katalogu (usunac zbedne pliki), nalezy wykonac:
+       make clean
+
+
+========================================================================
+Odpowiedz na pytanie:tyle samo co iteracji w petli
+
